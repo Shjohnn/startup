@@ -11,17 +11,23 @@ class AnalyzeView(APIView):
     permission_classes = [IsAuthenticated]
 
     def post(self, request):
-        answers = UserAnswer.objects.filter(
-            user=request.user
-        ).select_related('question')
+        try:
+            answers = UserAnswer.objects.filter(
+                user=request.user
+            ).select_related('question')
 
-        if not answers.exists():
+            if not answers.exists():
+                return Response(
+                    {"error": "Avval quizni to'ldiring!"},
+                    status=status.HTTP_400_BAD_REQUEST
+                )
+
+            results = analyze_answers(request.user, answers)
+            serializer = AnalysisResultSerializer(results, many=True)
+            return Response(serializer.data, status=status.HTTP_200_OK)
+
+        except Exception as e:
             return Response(
-                {"error": "Avval quizni to'ldiring!"},
-                status=status.HTTP_400_BAD_REQUEST
+                {"error": str(e)},
+                status=status.HTTP_500_INTERNAL_SERVER_ERROR
             )
-
-        results = analyze_answers(request.user, answers)
-        serializer = AnalysisResultSerializer(results, many=True)
-        return Response(serializer.data, status=status.HTTP_200_OK)
-
