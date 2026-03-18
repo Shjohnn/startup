@@ -4,7 +4,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.permissions import IsAuthenticated
-from .models import Question
+from .models import Question, UserAnswer
 from .serializers import QuestionSerializer, QuizSubmitSerializer
 
 
@@ -30,3 +30,18 @@ class QuizSubmitView(APIView):
             )
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
+
+class MyAnswersView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        count = UserAnswer.objects.filter(user=request.user).count()
+        return Response({'count': count})
+
+
+class ResetQuizView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def delete(self, request):
+        UserAnswer.objects.filter(user=request.user).delete()
+        return Response({"message": "Test qayta boshlash uchun tayyor!"})
