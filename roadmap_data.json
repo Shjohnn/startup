@@ -1,0 +1,1043 @@
+[
+{
+  "model": "roadmap.roadmap",
+  "pk": 1,
+  "fields": {
+    "field_name": "data_science",
+    "title": "Data Science",
+    "description": "Python dan ML gacha junior darajaga",
+    "total_hours": 400
+  }
+},
+{
+  "model": "roadmap.roadmap",
+  "pk": 2,
+  "fields": {
+    "field_name": "backend",
+    "title": "Backend Development",
+    "description": "Python backend developer yo'li",
+    "total_hours": 350
+  }
+},
+{
+  "model": "roadmap.roadmap",
+  "pk": 3,
+  "fields": {
+    "field_name": "frontend",
+    "title": "Frontend Development",
+    "description": "HTML dan React gacha",
+    "total_hours": 350
+  }
+},
+{
+  "model": "roadmap.roadmap",
+  "pk": 4,
+  "fields": {
+    "field_name": "ml",
+    "title": "Machine Learning",
+    "description": "ML Engineer yo'li",
+    "total_hours": 450
+  }
+},
+{
+  "model": "roadmap.roadmap",
+  "pk": 5,
+  "fields": {
+    "field_name": "flutter",
+    "title": "Flutter Mobile",
+    "description": "Flutter bilan mobile app yaratish",
+    "total_hours": 350
+  }
+},
+{
+  "model": "roadmap.roadmap",
+  "pk": 6,
+  "fields": {
+    "field_name": "android",
+    "title": "Android Development",
+    "description": "Kotlin bilan Android dasturlash",
+    "total_hours": 400
+  }
+},
+{
+  "model": "roadmap.roadmap",
+  "pk": 7,
+  "fields": {
+    "field_name": "ios",
+    "title": "iOS Development",
+    "description": "Swift bilan iOS dasturlash",
+    "total_hours": 400
+  }
+},
+{
+  "model": "roadmap.roadmap",
+  "pk": 8,
+  "fields": {
+    "field_name": "devops",
+    "title": "DevOps",
+    "description": "DevOps Engineer yo'li",
+    "total_hours": 400
+  }
+},
+{
+  "model": "roadmap.roadmap",
+  "pk": 9,
+  "fields": {
+    "field_name": "cybersecurity",
+    "title": "Cybersecurity",
+    "description": "Kiberxavfsizlik yo'li",
+    "total_hours": 400
+  }
+},
+{
+  "model": "roadmap.roadmap",
+  "pk": 10,
+  "fields": {
+    "field_name": "blockchain",
+    "title": "Blockchain Development",
+    "description": "Blockchain developer yo'li",
+    "total_hours": 400
+  }
+},
+{
+  "model": "roadmap.roadmap",
+  "pk": 11,
+  "fields": {
+    "field_name": "game_dev",
+    "title": "Game Development",
+    "description": "Game developer yo'li",
+    "total_hours": 400
+  }
+},
+{
+  "model": "roadmap.roadmap",
+  "pk": 12,
+  "fields": {
+    "field_name": "ui_ux",
+    "title": "UI/UX Design",
+    "description": "UI/UX designer yo'li",
+    "total_hours": 300
+  }
+},
+{
+  "model": "roadmap.roadmap",
+  "pk": 13,
+  "fields": {
+    "field_name": "cloud",
+    "title": "Cloud Engineering",
+    "description": "Cloud engineer yo'li",
+    "total_hours": 400
+  }
+},
+{
+  "model": "roadmap.roadmap",
+  "pk": 14,
+  "fields": {
+    "field_name": "ai_engineering",
+    "title": "AI Engineering",
+    "description": "AI Engineer yo'li",
+    "total_hours": 450
+  }
+},
+{
+  "model": "roadmap.roadmap",
+  "pk": 15,
+  "fields": {
+    "field_name": "qa",
+    "title": "QA / Testing",
+    "description": "QA Engineer yo'li",
+    "total_hours": 300
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 1,
+  "fields": {
+    "roadmap": 1,
+    "order": 1,
+    "title": "Python basics",
+    "description": "Syntax, funksiyalar, OOP",
+    "hours_needed": 60
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 2,
+  "fields": {
+    "roadmap": 1,
+    "order": 2,
+    "title": "Pandas & NumPy",
+    "description": "Ma'lumotlar bilan ishlash",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 3,
+  "fields": {
+    "roadmap": 1,
+    "order": 3,
+    "title": "Data Visualization",
+    "description": "Matplotlib, Seaborn",
+    "hours_needed": 40
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 4,
+  "fields": {
+    "roadmap": 1,
+    "order": 4,
+    "title": "Statistics",
+    "description": "Ehtimollik, statistika asoslari",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 5,
+  "fields": {
+    "roadmap": 1,
+    "order": 5,
+    "title": "Machine Learning",
+    "description": "Sklearn, modellar",
+    "hours_needed": 80
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 6,
+  "fields": {
+    "roadmap": 1,
+    "order": 6,
+    "title": "Real Projects",
+    "description": "Portfolio loyihalari",
+    "hours_needed": 120
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 7,
+  "fields": {
+    "roadmap": 2,
+    "order": 1,
+    "title": "Python basics",
+    "description": "Syntax, OOP, funksiyalar",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 8,
+  "fields": {
+    "roadmap": 2,
+    "order": 2,
+    "title": "Django",
+    "description": "Models, views, templates",
+    "hours_needed": 80
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 9,
+  "fields": {
+    "roadmap": 2,
+    "order": 3,
+    "title": "Django REST Framework",
+    "description": "API yaratish",
+    "hours_needed": 60
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 10,
+  "fields": {
+    "roadmap": 2,
+    "order": 4,
+    "title": "PostgreSQL",
+    "description": "Database asoslari",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 11,
+  "fields": {
+    "roadmap": 2,
+    "order": 5,
+    "title": "Git & GitHub",
+    "description": "Version control",
+    "hours_needed": 20
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 12,
+  "fields": {
+    "roadmap": 2,
+    "order": 6,
+    "title": "Deploy",
+    "description": "Server, Nginx, Docker asoslari",
+    "hours_needed": 40
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 13,
+  "fields": {
+    "roadmap": 2,
+    "order": 7,
+    "title": "Real Projects",
+    "description": "Portfolio loyihalari",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 14,
+  "fields": {
+    "roadmap": 3,
+    "order": 1,
+    "title": "HTML & CSS",
+    "description": "Asoslar, Flexbox, Grid",
+    "hours_needed": 60
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 15,
+  "fields": {
+    "roadmap": 3,
+    "order": 2,
+    "title": "JavaScript",
+    "description": "ES6+, DOM, async",
+    "hours_needed": 80
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 16,
+  "fields": {
+    "roadmap": 3,
+    "order": 3,
+    "title": "React",
+    "description": "Components, hooks, state",
+    "hours_needed": 100
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 17,
+  "fields": {
+    "roadmap": 3,
+    "order": 4,
+    "title": "Git & GitHub",
+    "description": "Version control",
+    "hours_needed": 20
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 18,
+  "fields": {
+    "roadmap": 3,
+    "order": 5,
+    "title": "Real Projects",
+    "description": "Portfolio loyihalari",
+    "hours_needed": 90
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 19,
+  "fields": {
+    "roadmap": 4,
+    "order": 1,
+    "title": "Python & Math",
+    "description": "Python, algebra, calculus",
+    "hours_needed": 70
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 20,
+  "fields": {
+    "roadmap": 4,
+    "order": 2,
+    "title": "Pandas & NumPy",
+    "description": "Ma'lumotlar bilan ishlash",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 21,
+  "fields": {
+    "roadmap": 4,
+    "order": 3,
+    "title": "ML Algorithms",
+    "description": "Regression, classification, clustering",
+    "hours_needed": 100
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 22,
+  "fields": {
+    "roadmap": 4,
+    "order": 4,
+    "title": "Deep Learning",
+    "description": "Neural networks, TensorFlow",
+    "hours_needed": 100
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 23,
+  "fields": {
+    "roadmap": 4,
+    "order": 5,
+    "title": "MLOps basics",
+    "description": "Model deploy qilish",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 24,
+  "fields": {
+    "roadmap": 4,
+    "order": 6,
+    "title": "Real Projects",
+    "description": "Portfolio loyihalari",
+    "hours_needed": 80
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 25,
+  "fields": {
+    "roadmap": 5,
+    "order": 1,
+    "title": "Dart basics",
+    "description": "Dart sintaksis va OOP",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 26,
+  "fields": {
+    "roadmap": 5,
+    "order": 2,
+    "title": "Flutter UI",
+    "description": "Widgets, layouts",
+    "hours_needed": 80
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 27,
+  "fields": {
+    "roadmap": 5,
+    "order": 3,
+    "title": "State Management",
+    "description": "Provider, Riverpod",
+    "hours_needed": 60
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 28,
+  "fields": {
+    "roadmap": 5,
+    "order": 4,
+    "title": "API Integration",
+    "description": "HTTP, REST API",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 29,
+  "fields": {
+    "roadmap": 5,
+    "order": 5,
+    "title": "Real Projects",
+    "description": "Portfolio loyihalari",
+    "hours_needed": 110
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 30,
+  "fields": {
+    "roadmap": 6,
+    "order": 1,
+    "title": "Kotlin basics",
+    "description": "Sintaksis, OOP",
+    "hours_needed": 60
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 31,
+  "fields": {
+    "roadmap": 6,
+    "order": 2,
+    "title": "Android UI",
+    "description": "XML layouts, activities",
+    "hours_needed": 80
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 32,
+  "fields": {
+    "roadmap": 6,
+    "order": 3,
+    "title": "Jetpack Compose",
+    "description": "Modern UI",
+    "hours_needed": 70
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 33,
+  "fields": {
+    "roadmap": 6,
+    "order": 4,
+    "title": "API Integration",
+    "description": "Retrofit, REST",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 34,
+  "fields": {
+    "roadmap": 6,
+    "order": 5,
+    "title": "Real Projects",
+    "description": "Portfolio loyihalari",
+    "hours_needed": 140
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 35,
+  "fields": {
+    "roadmap": 7,
+    "order": 1,
+    "title": "Swift basics",
+    "description": "Sintaksis, OOP",
+    "hours_needed": 60
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 36,
+  "fields": {
+    "roadmap": 7,
+    "order": 2,
+    "title": "UIKit",
+    "description": "Interface builder",
+    "hours_needed": 80
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 37,
+  "fields": {
+    "roadmap": 7,
+    "order": 3,
+    "title": "SwiftUI",
+    "description": "Modern UI framework",
+    "hours_needed": 80
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 38,
+  "fields": {
+    "roadmap": 7,
+    "order": 4,
+    "title": "API Integration",
+    "description": "URLSession, REST",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 39,
+  "fields": {
+    "roadmap": 7,
+    "order": 5,
+    "title": "Real Projects",
+    "description": "Portfolio loyihalari",
+    "hours_needed": 130
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 40,
+  "fields": {
+    "roadmap": 8,
+    "order": 1,
+    "title": "Linux basics",
+    "description": "Terminal, commands",
+    "hours_needed": 60
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 41,
+  "fields": {
+    "roadmap": 8,
+    "order": 2,
+    "title": "Git & CI/CD",
+    "description": "GitHub Actions",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 42,
+  "fields": {
+    "roadmap": 8,
+    "order": 3,
+    "title": "Docker",
+    "description": "Containerization",
+    "hours_needed": 70
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 43,
+  "fields": {
+    "roadmap": 8,
+    "order": 4,
+    "title": "Kubernetes",
+    "description": "Orchestration",
+    "hours_needed": 80
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 44,
+  "fields": {
+    "roadmap": 8,
+    "order": 5,
+    "title": "Cloud (AWS)",
+    "description": "EC2, S3, RDS",
+    "hours_needed": 90
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 45,
+  "fields": {
+    "roadmap": 8,
+    "order": 6,
+    "title": "Real Projects",
+    "description": "Portfolio loyihalari",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 46,
+  "fields": {
+    "roadmap": 9,
+    "order": 1,
+    "title": "Networking basics",
+    "description": "TCP/IP, DNS, HTTP",
+    "hours_needed": 60
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 47,
+  "fields": {
+    "roadmap": 9,
+    "order": 2,
+    "title": "Linux & Terminal",
+    "description": "Kali Linux",
+    "hours_needed": 60
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 48,
+  "fields": {
+    "roadmap": 9,
+    "order": 3,
+    "title": "Web Security",
+    "description": "OWASP Top 10",
+    "hours_needed": 80
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 49,
+  "fields": {
+    "roadmap": 9,
+    "order": 4,
+    "title": "Ethical Hacking",
+    "description": "Penetration testing",
+    "hours_needed": 100
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 50,
+  "fields": {
+    "roadmap": 9,
+    "order": 5,
+    "title": "Real Projects",
+    "description": "CTF va amaliy mashqlar",
+    "hours_needed": 100
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 51,
+  "fields": {
+    "roadmap": 10,
+    "order": 1,
+    "title": "Blockchain basics",
+    "description": "How blockchain works",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 52,
+  "fields": {
+    "roadmap": 10,
+    "order": 2,
+    "title": "Solidity",
+    "description": "Smart contracts",
+    "hours_needed": 100
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 53,
+  "fields": {
+    "roadmap": 10,
+    "order": 3,
+    "title": "Web3.js / Ethers.js",
+    "description": "Frontend integration",
+    "hours_needed": 80
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 54,
+  "fields": {
+    "roadmap": 10,
+    "order": 4,
+    "title": "DeFi protocols",
+    "description": "DeFi asoslari",
+    "hours_needed": 70
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 55,
+  "fields": {
+    "roadmap": 10,
+    "order": 5,
+    "title": "Real Projects",
+    "description": "Portfolio loyihalari",
+    "hours_needed": 100
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 56,
+  "fields": {
+    "roadmap": 11,
+    "order": 1,
+    "title": "Python / C# basics",
+    "description": "Dasturlash asoslari",
+    "hours_needed": 60
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 57,
+  "fields": {
+    "roadmap": 11,
+    "order": 2,
+    "title": "Unity basics",
+    "description": "2D/3D game engine",
+    "hours_needed": 100
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 58,
+  "fields": {
+    "roadmap": 11,
+    "order": 3,
+    "title": "Game Physics",
+    "description": "Harakat, collisions",
+    "hours_needed": 60
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 59,
+  "fields": {
+    "roadmap": 11,
+    "order": 4,
+    "title": "Game Design",
+    "description": "Level design, UX",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 60,
+  "fields": {
+    "roadmap": 11,
+    "order": 5,
+    "title": "Real Projects",
+    "description": "Portfolio o'yinlar",
+    "hours_needed": 130
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 61,
+  "fields": {
+    "roadmap": 12,
+    "order": 1,
+    "title": "Design basics",
+    "description": "Rang, tipografiya, kompozitsiya",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 62,
+  "fields": {
+    "roadmap": 12,
+    "order": 2,
+    "title": "Figma",
+    "description": "Interface design tool",
+    "hours_needed": 80
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 63,
+  "fields": {
+    "roadmap": 12,
+    "order": 3,
+    "title": "UX Research",
+    "description": "User research, usability",
+    "hours_needed": 60
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 64,
+  "fields": {
+    "roadmap": 12,
+    "order": 4,
+    "title": "Prototyping",
+    "description": "Wireframe, prototype",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 65,
+  "fields": {
+    "roadmap": 12,
+    "order": 5,
+    "title": "Real Projects",
+    "description": "Portfolio loyihalari",
+    "hours_needed": 60
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 66,
+  "fields": {
+    "roadmap": 13,
+    "order": 1,
+    "title": "Linux & Networking",
+    "description": "Asoslar",
+    "hours_needed": 60
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 67,
+  "fields": {
+    "roadmap": 13,
+    "order": 2,
+    "title": "AWS basics",
+    "description": "EC2, S3, RDS, Lambda",
+    "hours_needed": 100
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 68,
+  "fields": {
+    "roadmap": 13,
+    "order": 3,
+    "title": "Infrastructure as Code",
+    "description": "Terraform",
+    "hours_needed": 70
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 69,
+  "fields": {
+    "roadmap": 13,
+    "order": 4,
+    "title": "Docker & Kubernetes",
+    "description": "Containerization",
+    "hours_needed": 80
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 70,
+  "fields": {
+    "roadmap": 13,
+    "order": 5,
+    "title": "Real Projects",
+    "description": "Portfolio loyihalari",
+    "hours_needed": 90
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 71,
+  "fields": {
+    "roadmap": 14,
+    "order": 1,
+    "title": "Python & Math",
+    "description": "Python, linear algebra",
+    "hours_needed": 70
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 72,
+  "fields": {
+    "roadmap": 14,
+    "order": 2,
+    "title": "ML basics",
+    "description": "Classical ML",
+    "hours_needed": 80
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 73,
+  "fields": {
+    "roadmap": 14,
+    "order": 3,
+    "title": "Deep Learning",
+    "description": "PyTorch, TensorFlow",
+    "hours_needed": 100
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 74,
+  "fields": {
+    "roadmap": 14,
+    "order": 4,
+    "title": "LLMs & Prompt Eng",
+    "description": "GPT, Claude, Gemini",
+    "hours_needed": 80
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 75,
+  "fields": {
+    "roadmap": 14,
+    "order": 5,
+    "title": "AI APIs",
+    "description": "OpenAI, LangChain",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 76,
+  "fields": {
+    "roadmap": 14,
+    "order": 6,
+    "title": "Real Projects",
+    "description": "Portfolio loyihalari",
+    "hours_needed": 70
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 77,
+  "fields": {
+    "roadmap": 15,
+    "order": 1,
+    "title": "Testing basics",
+    "description": "Manual testing asoslari",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 78,
+  "fields": {
+    "roadmap": 15,
+    "order": 2,
+    "title": "Python basics",
+    "description": "Dasturlash asoslari",
+    "hours_needed": 50
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 79,
+  "fields": {
+    "roadmap": 15,
+    "order": 3,
+    "title": "Selenium",
+    "description": "Web automation",
+    "hours_needed": 70
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 80,
+  "fields": {
+    "roadmap": 15,
+    "order": 4,
+    "title": "API Testing",
+    "description": "Postman, pytest",
+    "hours_needed": 60
+  }
+},
+{
+  "model": "roadmap.roadmapstep",
+  "pk": 81,
+  "fields": {
+    "roadmap": 15,
+    "order": 5,
+    "title": "Real Projects",
+    "description": "Portfolio loyihalari",
+    "hours_needed": 70
+  }
+}
+]
