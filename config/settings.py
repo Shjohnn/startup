@@ -146,7 +146,8 @@ DATABASES = {
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
-    'https://careercompass-frontend-sgs9.vercel.app',  # ← shu qatorni qo'sh
+    'https://careercompass-frontend-sgs9.vercel.app',
+    'https://careercompass-frontend-sgs9-i5ugbhjki.vercel.app',
 ]
 
 # Password validation
