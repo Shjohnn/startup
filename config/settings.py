@@ -110,6 +110,9 @@ TEMPLATES = [
         },
     },
 ]
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-9b16.up.railway.app',
+]
 
 WSGI_APPLICATION = "config.wsgi.application"
 
