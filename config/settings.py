@@ -145,6 +145,11 @@ DATABASES = {
     )
 }
 
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    'https://careercompass-frontend-sgs9.vercel.app',  # ← shu qatorni qo'sh
+]
+
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
 
